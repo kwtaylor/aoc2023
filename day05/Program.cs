@@ -11,7 +11,7 @@ foreach(var seed in input.ReadLine()?.Split(':')[1].Split(' ',StringSplitOptions
 var destmap = new LinkedList<long>();
 
 string cat;
-string? line;
+string line;
 while((line = input.ReadLine()) != null) {
     var cat_match = Regex.Match(line, @"\S+-to-(\S+)");
     if (cat_match.Success) {
