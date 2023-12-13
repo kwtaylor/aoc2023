@@ -4,6 +4,9 @@
 # Don't upload AoC input
 input
 
+# Alternative solutions
+*.cs_bak*
+
 # User-specific files
 *.suo
 *.user
