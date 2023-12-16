@@ -3,6 +3,7 @@
 
 # Don't upload AoC input
 input
+test
 
 # Alternative solutions
 *.cs_bak*
